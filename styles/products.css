@@ -1,0 +1,42 @@
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 20px;
+}
+ 
+.menu-card {
+  background: #fffaf5;
+  border: 1px solid #f0e0d0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s, box-shadow 0.3s;
+}
+ 
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(90, 42, 12, 0.2);
+}
+ 
+.menu-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+ 
+.menu-info {
+  padding: 14px;
+}
+ 
+.menu-info h3 {
+  margin: 0 0 6px;
+  color: #5a2a0c;
+}
+ 
+ 
+.menu-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #5a2a0c;
+}
